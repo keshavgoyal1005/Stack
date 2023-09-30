@@ -1,0 +1,15 @@
+.navbar{
+    background-color: #ffffff;
+    height: 40px;
+    width: 100%;
+    border-color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid;  */
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 8px;
+    /* top: 3px; */
+}
+.navbar span button{
+    /* width: 2rem;
+    height: auto; */
+    height: 25px;
+    width: auto;
+}

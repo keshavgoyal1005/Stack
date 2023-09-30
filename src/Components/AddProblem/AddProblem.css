@@ -1,0 +1,97 @@
+.add-problem{
+  font-family:'helvetica';
+  padding-top: 20px;
+}
+.left-right{
+  display: flex;
+}
+.left-side{
+  /* border: 1px solid red; */
+  width: 40%;
+  padding: 10px;
+  padding-left: 2%;
+}
+input, textarea{
+  display: flex;
+  flex-direction: column;
+  resize: none;
+  height: 26px;
+  width: 94.5%;
+	border: 1px solid grey;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  padding: 2%;
+  font-size: small;
+  margin-bottom: 10px;
+}
+label{
+  font-weight: 510;
+  /* color: rgb(70, 70, 70); */
+}
+textarea{
+  min-height: 20vh;
+}
+.input-format textarea , .output-format textarea{
+  /* background-color: red; */
+  min-height: 10vh;
+}
+.right-side{
+  /* border: 1px solid coral; */
+  width: 60%;
+  padding: 10px;
+  padding-right: 2%;
+}
+.right-side-desc{
+  /* border: 1px solid red; */
+  height: fit-content;
+  min-height: 51.6vh;
+  margin-bottom: 4vh;
+}
+.right-side-desc .ql-container {
+  min-height: 40vh;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.right-side-desc .ql-editor {
+  height: 100%;
+  flex: 1;
+  overflow-y: s;
+  width: 100%;
+  background-color: white;
+}
+
+.output-format, .constraints, .input-format{
+  margin-right: 2vw;
+  margin-bottom: 2vh;
+}
+.test-cases{
+  margin-bottom: 2vh;
+}
+.output-format .ql-container, .input-format .ql-container , 
+.constraints .ql-container, .test-cases .ql-container {
+  min-height: 10vh;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.output-format .ql-editor, .input-format .ql-editor , 
+.constraints .ql-editor, .test-cases .ql-editor {
+  height: 100%;
+  flex: 1;
+  overflow-y: s;
+  width: 100%;
+  background-color: white;
+}
+.submit-btn{
+  border: none;
+  padding: 5px;
+  width: 90px;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 2px; 
+  color: rgb(255, 249, 249);
+  font-family: 'poppins';
+}

@@ -1,0 +1,33 @@
+.comment-Box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    background-color: #e8e8e8;
+    padding: 9px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+  
+.Circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    color: #ffffff; 
+    font-weight: bold;
+}
+.post-btn{
+    background-color: #03C3FF;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;    
+    padding: 1px;
+}
+  

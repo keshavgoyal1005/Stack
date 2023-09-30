@@ -1,0 +1,26 @@
+.comment-content{
+    /* background-color: red; */
+    margin-left: 1rem;
+}
+.comment-main{
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 5px;
+    border-radius: 6px;
+}
+.comment-main:hover .delete-comment-btn{
+    background-color: rgb(234, 234, 234);
+}
+.comment-main:hover{
+    background-color: rgb(234, 234, 234);
+}
+.delete-comment-btn{
+    background-color: #F7F8F9;  
+    color: rgb(117, 116, 116)  ;
+    border: none;
+    cursor: pointer;
+}
+.delete-comment-btn:hover{
+    color: red;
+    background-color: rgb(234, 234, 234);
+}

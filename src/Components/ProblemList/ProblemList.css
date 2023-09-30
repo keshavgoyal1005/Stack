@@ -1,0 +1,20 @@
+.problem-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1rem;
+}
+
+.Filters{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.threeFilters button{
+    /* background-color: green; */
+    margin-right: 1rem;
+    border: 1px solid grey;
+    
+}
